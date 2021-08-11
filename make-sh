@@ -1,0 +1,14 @@
+
+#from https://docs.activitywatch.net/en/latest/installing-from-source.html
+
+
+python3 -m venv venv
+source ./venv/Scripts/activate
+
+pip install poetry==1.5.1
+
+make build
+make package
+
+echo "Script ended: press Ctrl+C to close window"
+tail -f /dev/null
