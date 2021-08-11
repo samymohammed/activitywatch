@@ -1,0 +1,1 @@
+git-bash.exe "--cd=%cd%" -c "SKIP_WEBUI=true ./make-sh"
